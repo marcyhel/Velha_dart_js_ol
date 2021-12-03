@@ -22,7 +22,7 @@ const Velha={
         this.draw()
     },
     conecta:function(){
-        this.socket = new WebSocket('ws://192.168.176.1:8080')
+        this.socket = new WebSocket('ws://186.207.129.17:8080')
         soc=this.socket
         comand=this.comandos
         tab =this.tabuleiro
